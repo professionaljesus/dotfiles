@@ -1,6 +1,7 @@
 set showcmd
 set number
 set undofile
+set undodir=~/.vim/undo-dir
 syntax on
 set path+=**
 set wildmenu
@@ -11,27 +12,4 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
-
-
-
-"Hard mode
-nnoremap <Up> <Nop>
-nnoremap <Down> <Nop>
-nnoremap <Left> <Nop>
-nnoremap <Right> <Nop>
-
-"inoremap <Up> <Nop>
-"inoremap <Down> <Nop>
-"inoremap <Left> <Nop>
-"inoremap <Right> <Nop>
-
-cnoremap <Up> <Nop>
-cnoremap <Down> <Nop>
-cnoremap <Left> <Nop>
-cnoremap <Right> <Nop>
-
-vnoremap <Up> <Nop>
-vnoremap <Down> <Nop>
-vnoremap <Left> <Nop>
-vnoremap <Right> <Nop>
-
+set noerrorbells
